@@ -1,0 +1,221 @@
+/*sets bg color*/
+.bd{ 
+    background-color: #383838;  
+}   
+
+/*container in which I am creating my website */	
+#container{
+    width: 1200px;  
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* logo styling */
+#logo{
+    background-color: #484848;
+    font-family: "Lucida Console";
+    font-size: 24px;
+    color: floralwhite;
+    text-align: center;
+    padding: 15px;
+    border-radius: 12px;
+}
+
+/* Styling for the contact.php */
+#contact{
+    color: white;
+    font-size: 24px;
+    padding: 8px;
+    text-align: center;
+    font-family: "Georgia";
+}
+
+.menu{
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+    padding: 5px;
+}
+
+/* Button styling */
+#button{
+    background-color: #484848;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+    width: 150px;
+    height:20px;
+    font-size: 18px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+	border: 2px solid silver;
+}
+
+/* Button styling when mouse cursor is on the button */
+#button:hover{
+    background-color: #66CC00;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+    width: 150px;
+    height:20px;
+    font-size: 18px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+	border: 2px solid silver;
+}
+
+/*Button styling for the selected/curent page */ 
+#button_selected{
+    background-color: #66CC00;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+    width: 150px;
+    height:20px;
+    font-size: 18px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+	border: 2px solid silver;
+}
+
+#welcome{
+    color: white;
+    text-align: center;
+    font-size: 42px;
+    font-family:"Comic Sans MS";	
+}
+
+#score{
+    color: white;
+    text-align: center;
+    font-size: 34px;
+    font-family:"Comic Sans MS";
+}
+
+/* score box */ 
+#score_box{
+    border-radius: 25px;
+    background-color: #787878;
+    color: white;
+    border: 6px solid white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+
+
+/* game box */
+#game_box{
+    border-radius: 25px;
+    background-color: #787878;
+    color: white;
+    border: 6px solid white;
+    width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px; 
+}
+
+#game_box table{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 15px;
+}
+
+#game_box img:hover{
+    border: 4px solid #00BFFF;
+}
+
+#game_box img{
+    height: 185px;
+    width: 185px;
+    padding: 2px;
+    border-radius: 15px;
+    border: 4px solid #787878;
+}
+
+
+/* login/registartion form styling */
+#login-registartion_box{
+    border-radius: 25px;
+    color: white;
+    background-color: #383838;
+    border: 6px solid white;
+    width: 330px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px; 
+}
+
+#login-registartion_box h5{
+    color: #FF4500;
+    font-family: "Rockwell";
+    font-size:13px;
+}
+
+#login-registartion_box input{
+    width: 240px;
+}
+
+
+/*button styling for the login/registartion form */		 
+.botton_pos{
+    background-color: #484848;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+    width: 100px;
+    height:45px;
+    font-size: 18px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.botton_pos:hover{
+    background-color: #66CC00;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    display:inline-block;
+    width: 100px;
+    height:45px;
+    font-size: 18px;
+    margin: 10px 5px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/*created for test porpose*/
+#test{
+    padding: 20px;
+    font-size: 30px;
+    font-family:"Rockwell";
+}
+
+#score_box table{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 30px;
+}
+
+#score_box td {
+    border-bottom: 2px solid floralwhite;
+    padding: 7px;
+}
+
+#score_box th {
+    border-bottom: 2px solid floralwhite;
+    padding: 7px;
+}
